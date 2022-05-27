@@ -9,7 +9,7 @@ $name = strtoupper($user['firstname']);
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($user['password'] == $_POST['psw']) {
         $_SESSION['id'] = $user['id'];
-        header('location:dashboard/dash.php');
+        header('location:dashboard.php');
     } else {
         $error = "Invalid password";
     }

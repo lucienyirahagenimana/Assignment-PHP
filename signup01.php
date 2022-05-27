@@ -39,7 +39,7 @@ if(isset($_POST['signup01'])) {
 
 <body>
     <p class="p-2 text-center text-white justify-content-center mb-lg-5" style="background-color:tomato;">Assignment</p>
-    <main class="d-flex justify-content-center text-align-center mb-lg-5" style="heigth:80vh">
+    <main class="d-flex justify-content-center text-align-center mb-lg-5" style="heigth:100vh">
         <div class="border-2 shadow p-1 pt-5 pb-3 mb-5 mt-5">
             <div class="position-relative text-center">
                 <p class="fw-bold text-dark" style="font-size:20px">Welcome Back!</p>
@@ -83,7 +83,7 @@ if(isset($_POST['signup01'])) {
                     <div class="border w-100"></div>
                 </div>
                 <div class="bg-tomato p-2 text-white rounded" style=background-color:tomato>
-                    <i class="fa fa-google" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
                     <span class="ps-2">Continue with google</span>
                 </div>
 
@@ -93,8 +93,8 @@ if(isset($_POST['signup01'])) {
                 </div>
 
             </form>
-
-            <footer class=" bg-info  p-2 mt-90 justify-content-between d-flex ">
+                                </main>
+                                <footer class=" bg-info  p-2 mt-90 justify-content-between d-flex ">
                 <div>
                     <a href="#" class="text-white px-2" style="text-decoration:none">About us</a>
                     <a href="#" class="text-white px-2" style="text-decoration:none">Advertisement</a>
@@ -106,7 +106,7 @@ if(isset($_POST['signup01'])) {
                     <a href="#" class="text-white px-2" style="text-decoration:none">How search work</a>
                     <a href="#" class="text-white px-2" style="text-decoration:none">Privancy</a>
                 </div>
-            </footer>
+            </footer>   
 </body>
 
 </html>
